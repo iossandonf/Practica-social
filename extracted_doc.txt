@@ -1,0 +1,103 @@
+Entrega 2 Trabajo Práctica Social
+
+Grupo 11: 
+
+Bartolomé Miranda
+
+Ignacio Ossandón
+
+Jorge Ruz
+
+Clemente Torres
+
+Incorporación de Feedback Entrega 1: Magnitud y Evidencia Empírica
+
+El problema abordado es la deficiente formación en finanzas personales aplicadas de los estudiantes de Educación Media en Chile, producto de un diseño curricular tardío, teórico y discontinuo que destina sólo 27 horas pedagógicas aisladas dentro de Historia en 1° Medio. La magnitud real de este déficit se demuestra tanto en las pruebas estandarizadas como en el comportamiento financiero juvenil. En la evaluación de educación financiera de la OCDE (PISA), Chile promedia 451 puntos, ubicándose significativamente bajo el promedio OCDE (498 puntos) y lejos de referentes de nuestro benchmark como Bélgica (527 puntos) y Dinamarca (521 puntos). Más del 30% de los estudiantes chilenos de 15 años no alcanza el Nivel 2 de competencia básica, siendo incapaces de interpretar una factura o cartola simple, distinguir entre tasa de interés y Carga Anual Equivalente (CAE), o elaborar un presupuesto personal. Asimismo, según reportes de deuda morosa (USS/Equifax) e informes de la CMF e INJUV, el tramo de 18 a 24 años experimenta una rápida entrada a la morosidad apenas accede a tarjetas de casas comerciales, créditos de consumo o productos financieros digitales, careciendo de herramientas prácticas para dimensionar el interés compuesto, la inflación (UF) y el sobreendeudamiento.
+
+1. Entrevista a José Díaz Cruz (Especialista en Economía y Finanzas)
+
+P1: ¿Qué tan sólida es la evidencia que relaciona educación financiera con cambios posteriores en comportamiento, como ahorro, planificación, uso del crédito o endeudamiento? ¿En qué resultados existe mayor y menor consenso? R: En la actualidad se observa poca evidencia en la educación financiera en todos los niveles de la sociedad. Para que existan cambios en comportamientos, se debe enseñar en los colegios, a niños de básica y media, el concepto del ahorro en términos simples: no gastar más de lo que se tiene, ya que de lo contrario deberá endeudarse para equilibrar sus ingresos versus sus gastos, reforzando esto con charlas a los padres y apoderados. Son cambios de largo plazo.
+
+P2: Considerando que buena parte de la evidencia proviene de otros países, ¿qué elementos deberían tenerse en cuenta antes de extrapolar esos resultados al contexto chileno? R: Son niveles culturales distintos. Para el contexto chileno, se requiere educación continua a niños, adolescentes y adultos, entendiendo que aquí los resultados se logran a largo plazo.
+
+P3: Si quisiéramos evaluar una intervención de educación financiera en estudiantes de enseñanza media, ¿qué resultados e indicadores recomendaría medir en el corto y mediano plazo para distinguir entre aprendizaje, capacidad aplicada y cambio de comportamiento? R: Para lograr éxito en una intervención, es importante realizar un diagnóstico que contenga indicadores simples por cursos y de varios establecimientos, para luego realizar las intervenciones donde se observan mayores desviaciones. Algunos indicadores clave son la proporción de alumnos con cursos de educación financiera sobre el total de alumnos (%) y las horas dedicadas a la capacitación sobre las horas totales de enseñanza (%), entre otros que se estimen convenientes.
+
+P4: Desde la evidencia existente, ¿qué características parecen hacer más efectivas las intervenciones de educación financiera en jóvenes? R: A mi juicio, de la poca evidencia disponible, lo más efectivo es la capacitación permanente: educar y educar.
+
+2. Entrevista a Verónica Díaz (Jefa de Operaciones Sincrónicas en Educación Profesional UC)
+
+P1: Desde su experiencia diseñando o coordinando programas de educación profesional, ¿qué elementos hacen que un contenido pase de ser sólo teórico a transformarse en una herramienta que las personas realmente puedan aplicar en su vida o trabajo? R: Los elementos fundamentales se basan en la planificación, diseño y creación de programas bajo una estructura con objetivos y resultados de aprendizaje claros al finalizar la actividad, desarrollados bajo la mirada de las habilidades que queremos lograr en los estudiantes. Por eso es importante la bajada del conocimiento y la aplicación concreta mediante actividades como análisis de casos, uso de herramientas, juegos de rol y desarrollo de proyectos.
+
+P2: Pensando en educación financiera para jóvenes, ¿qué metodologías cree que serían más efectivas para lograr aprendizaje aplicado: clases tradicionales, resolución de casos, simulaciones, actividades prácticas, aprendizaje basado en problemas u otras?
+
+R: Todas las alternativas presentadas son válidas y efectivas para el aprendizaje, y dependerá directamente del objetivo de aprendizaje y los resultados que ustedes quieran lograr en su proyecto educativo.
+
+P3: ¿Qué importancia tiene la continuidad de una formación en el tiempo? ¿Es preferible concentrar los contenidos en un curso específico o distribuirlos progresivamente en distintas etapas? R: La formación es un proceso continuo, por lo que es fundamental en el ciclo de vida. Respecto a cómo estructurarlo, ambas opciones son válidas y dependerán del receptor y su madurez académica. Un profesional puede lograr habilidades con un curso específico, pero para un proyecto dirigido a jóvenes es más conveniente distribuir los contenidos progresivamente dado un plan de desarrollo formativo.
+
+P4: En su experiencia, ¿cómo debería diseñarse una intervención para que los participantes no solo aprendan conceptos, sino que desarrollen capacidades para tomar mejores decisiones frente a situaciones reales? R: La opción de talleres aplicados, con simulación de casos y juegos de rol. En mi experiencia, así se aprende eficientemente.
+
+P5: ¿Qué indicadores utilizaría para evaluar si un programa educativo de este tipo está funcionando? R: Medir el conocimiento adquirido, la capacidad de aplicar conceptos, el desempeño en situaciones prácticas, cambios en hábitos o seguimiento posterior. Además, nosotros aplicamos indicadores de calidad de la docencia y recomendación docente con varios ítems donde el alumno indica su percepción, satisfacción y feedback.
+
+3. Entrevista en Terreno Escolar (Mamá de Ignacio Ossandón)
+
+P1: En su experiencia, ¿cómo manejan los estudiantes el dinero que traen al colegio? Por ejemplo, si gastan todo de una vez, guardan una parte o planifican sus compras. 
+
+R: Los estudiantes de básica gastan todo lo que tienen, pues se manejan en efectivo. Los de enseñanza media, como utilizan tarjetas, son más cuidadosos al gastar ya que reciben mesada, pero ninguno planifica.
+
+P2: ¿Los estudiantes suelen comparar precios o pensar antes de comprar, o las compras son más impulsivas? R: Los hombres en general comparan más los precios; las mujeres son más impulsivas y realizan compras por aburrimiento.
+
+P3: ¿Observa diferencias entre estudiantes en la forma en que administran su dinero? ¿Qué diferencias ve? R: Sí, hay diferencia en cuanto a las edades: los más pequeños gastan sin pensar mucho, mientras que los más grandes evalúan cuánto les queda o tienen en ese momento.
+
+P4: ¿Ha visto situaciones en que estudiantes pidan dinero prestado, queden debiendo o gasten más de lo que inicialmente tenían pensado? R: Sí, los más grandes piden dinero a sus compañeros, aunque muy pocos prestan y solo lo hacen a los de mayor confianza.
+
+P5: ¿Cree que sería útil que los estudiantes aprendieran más sobre ahorro, presupuesto y administración del dinero? ¿Por qué? R: Sí, para que aprendan a controlar sus gastos y pensar en el futuro, es decir, no quedarse sin dinero para el resto del mes.
+
+P6: Si pudiera enseñarles una sola cosa para que administren mejor su dinero, ¿qué sería? R: Pensar a futuro y no hacer compras impulsivas.
+
+Cuatro Posibles Soluciones
+
+1. Reforma Curricular y Capacitación Docente ("Integración Transversal"): Inspirada en Bélgica y República Checa, consiste en modificar los programas oficiales para integrar módulos obligatorios de finanzas aplicadas dentro de la asignatura de Matemática en 3° y 4° Medio (enseñando interés compuesto, CAE e impuestos al ver porcentajes), dirigida a profesores de Matemática y alumnos de ciclo superior. Esto eliminaría la desconexión temporal con cobertura universal en horario de clases. Su principal ventaja es el alcance sistémico nacional, pero su gran limitación es la nula factibilidad a corto plazo debido a la rigidez burocrática de modificar programas del MINEDUC, el alto costo fiscal de capacitar docentes y la resistencia por sobrecarga laboral del profesorado.
+
+2. Plataforma Digital Gamificada de Aprendizaje Autónomo ("Simulador Finanzas Joven"): Consiste en desarrollar una aplicación móvil interactiva dirigida a estudiantes de Enseñanza Media de todo Chile, donde el usuario administra un presupuesto virtual, enfrenta inflación, elige créditos según la CAE y evita fraudes digitales mediante ensayo y error. Su ventaja principal es la escalabilidad inmediata con costo marginal cercano a cero y la estandarización del contenido. Sin embargo, su limitación crítica es que las plataformas autónomas presentan altísimas tasas de abandono y sesgo de autoselección (solo participan alumnos ya motivados), además de requerir un alto costo fijo inicial de desarrollo informático.
+
+3. Laboratorio Escolar de Simulación y Juegos de Rol en Orientación ("Finanzas para tu Futuro"): Inspirado en Ontario y Dinamarca, consiste en un kit metodológico autoguiado de 4 sesiones de simulación práctica y juegos de rol para 3° y 4° Medio, aplicado en las horas de Orientación por el profesor jefe junto con cápsulas para apoderados. Resuelve la desconexión temporal al intervenir entre los 16 y 18 años, transforma la teoría en decisiones reales y suple la falta de especialización docente con material paso a paso. Dirigido a alumnos de 3° y 4° Medio de colegios SLEP y particulares subvencionados, destaca por su alta retención, bajo costo marginal al no requerir tutores externos, nula sobrecarga docente y alta escalabilidad, teniendo como única limitación asegurar que el colegio destine esos cuatro bloques y siga la pauta.
+
+4. Certificación Financiera Pre-Bancarización ("Sello Primera Cuenta"): Consiste en una alianza con bancos comerciales y BancoEstado dirigida a jóvenes de 17 y 18 años para que la apertura de su primera cuenta o tarjeta juvenil condicione beneficios concretos (descuentos o mejores tasas de ahorro) a la aprobación de 3 módulos prácticos breves sobre endeudamiento y ciberseguridad. Su ventaja es actuar justo a tiempo (just-in-time) con financiamiento privado de la banca, pero su limitación radica en la complejidad de lograr acuerdos comerciales bancarios, que actúa cuando los hábitos impulsivos ya están formados y que puede percibirse como publicidad bancaria en vez de educación neutral.
+
+Selección de una Solución
+
+El grupo escogió la Alternativa 3: Laboratorio Escolar de Simulación y Juegos de Rol en Orientación ("Finanzas para tu Futuro"). Al contrastar las opciones, la Reforma Curricular (Alt. 1) es inviable a corto plazo por sus trabas burocráticas y sobrecarga docente, mientras que la App Gamificada (Alt. 2) sufre de deserción masiva al carecer de mediación en el aula. Asimismo, el Sello Pre-Bancarización (Alt. 4) enfrenta barreras comerciales con la banca y actúa en una única instancia aislada al egresar, contradiciendo el consejo de nuestros entrevistados (José Díaz y Verónica Díaz) de dar formación progresiva en la etapa escolar.
+
+En cambio, la Alternativa 3 equilibra impacto, bajo costo, escalabilidad y factibilidad inmediata. Primero, responde directamente a las entrevistas: aplica talleres progresivos de simulación y juegos de rol (Verónica Díaz), incluye diagnóstico previo y cápsulas para padres (José Díaz Cruz), y aborda el gasto impulsivo de la mesada en tarjetas detectado en terreno. Segundo, es de bajo costo e implementación inmediata al no requerir leyes ni software complejo, sino un kit físico y digital listo para usar. Tercero, se inserta en las horas existentes de Orientación como un programa "llave en mano" que no quita tiempo PAES ni exige planificar al docente. Finalmente, al no depender de voluntarios externos por sala, es altamente escalable a cientos de colegios y SLEP, mitigando la falta de dominio técnico del profesor mediante guiones cerrados y videos de apoyo.
+
+Prototipo Inicial: Programa "Finanzas para tu Futuro"
+
+El prototipo es un kit metodológico estandarizado de 4 sesiones progresivas basadas en simulaciones y juegos de rol para 3° y 4° Medio, con material para apoderados. Los beneficiarios son alumnos de 3° y 4° Medio (colegios SLEP y subvencionados) en equipos de 5 estudiantes, ejecutado en sala por el profesor jefe como facilitador con apoyo del equipo coordinador y la UTP del colegio.
+
+Opera en cinco etapas semestrales: (1) Alianza y Diagnóstico (Mes 1), acordando con dirección/UTP 4 bloques de 45 minutos en Orientación y aplicando un diagnóstico digital de 5 minutos para medir brechas por curso (sugerencia de José Díaz Cruz); (2) Entrega del Kit (Mes 1) al profesor jefe con un video instructivo de 15 minutos que no requiere estudio previo; (3) Ciclo de 4 Sesiones (Meses 2 y 3), con 5 minutos de video conceptual y 40 minutos de juego de rol grupal (metodología de Verónica Díaz): la Sesión 1 trabaja presupuesto e inflación (UF) administrando una mesada en tarjeta bajo la regla 50/30/20 frente a compras impulsivas; la Sesión 2 aborda crédito y préstamos usando cartolas reales para comparar pago mínimo versus total y elegir según CAE; la Sesión 3 simula ahorro e interés compuesto en Cuenta UF, Depósitos a Plazo y Fondos Mutuos; y la Sesión 4 entrena seguridad digital ante estafas en redes, apuestas online y Dicom; (4) Vínculo Familiar, enviando cápsulas breves a los apoderados para reforzar el ahorro en casa; y (5) Evaluación (Mes 4), midiendo cobertura (% de alumnos y horas prácticas), variación en el test de casos aplicados y satisfacción docente/estudiantil.
+
+El programa requiere el Kit Metodológico (videos de 5 minutos, tarjetas de simulación, cartolas impresas y pauta docente) y formularios digitales, financiables vía fondos universitarios o alianzas. Para que funcione en la realidad, el material debe ser tan autoexplicativo que le resuelva la planificación de Orientación al profesor jefe sin sumarle carga laboral.
+
+Bibliografía:
+
+Agencia de Calidad de la Educación.** (2024). *PISA 2022: Resultados de Educación Financiera en Chile*. Ministerio de Educación de Chile.
+
+Comisión para el Mercado Financiero [CMF].** (2024). *Estrategia Nacional de Educación Financiera (ENEF) e Informe de Endeudamiento de las Personas en Chile*. Gobierno de Chile.
+
+Czech National Bank & Ministry of Finance of the Czech Republic.** (2020). *National Strategy for Financial Education 2.0*. Praga, República Checa.
+
+Fundación Conectado Aprendo.** (2025). *Modelo de tutorías personalizadas online y vinculación con instituciones de educación superior*.
+
+Instituto Nacional de la Juventud [INJUV].** (2022). *10ª Encuesta Nacional de Juventudes: Endeudamiento y educación financiera juvenil*. Ministerio de Desarrollo Social y Familia.
+
+Ministerio de Educación de Chile [MINEDUC].** (2016). *Bases Curriculares 7° Básico a 2° Medio: Historia, Geografía y Ciencias Sociales (Unidad de Economía y Sociedad en 1° Medio)*. Unidad de Currículum y Evaluación (UCE).
+
+Ministerio de Educación de Chile [MINEDUC].** (2019). *Bases Curriculares 3° y 4° Medio: Plan de Formación General y Electivos de Profundización*. Unidad de Currículum y Evaluación (UCE).
+
+OECD.** (2020). *OECD/INFE 2020 International Survey of Adult Financial Literacy*. OECD Publishing, Paris.
+
+OECD.** (2024). *PISA 2022 Results (Volume IV): How Financially Smart Are Students?* PISA, OECD Publishing, Paris.
+
+Ontario Ministry of Education.** (2021). *Financial Literacy in Ontario Schools: Curriculum Reforms and Practical Modules for Secondary Education*. Queen's Printer for Ontario, Canadá.
+
+Universidad San Sebastián [USS] & Equifax.** (2025). *Informe de Deuda Morosa en Chile: Análisis por tramos etarios y morosidad juvenil (18–24 años)*. Facultad de Economía y Gobierno USS.

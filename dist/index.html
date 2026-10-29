@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finanzas para tu Futuro | Laboratorio Escolar de Simulación Financiera en Orientación</title>
+  <meta name="description" content="Plataforma interactiva del programa Finanzas para tu Futuro. Kit metodológico de simulación y juegos de rol en horas de Orientación para 3° y 4° Medio en Chile.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <script type="module" crossorigin src="/assets/index-DlIlHZlk.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DJ59QxNi.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Top Alert Notification Bar -->
+    <div class="top-announcement">
+      <div class="container top-announcement-inner">
+        <span class="badge badge-light">Iniciativa PUC 2026</span>
+        <p><strong>Finanzas para tu Futuro:</strong> Laboratorio Escolar de Simulación y Juegos de Rol para 3° y 4° Medio (Colegios SLEP y Subvencionados de Chile)</p>
+        <span class="top-credits">Grupo 11: Bartolomé M., Ignacio O., Jorge R., Clemente T.</span>
+      </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+      <div class="container header-container">
+        <div class="brand">
+          <div class="brand-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5"></path>
+              <path d="M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">Finanzas para tu Futuro</span>
+            <span class="brand-subtitle">Laboratorio en Horas de Orientación</span>
+          </div>
+        </div>
+
+        <nav class="nav-links" id="main-nav">
+          <button class="nav-btn active" data-tab="hero-tab">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            Inicio
+          </button>
+          <button class="nav-btn" data-tab="diag-tab">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+            Diagnóstico (5 min)
+          </button>
+          <button class="nav-btn" data-tab="sim-tab">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            4 Sesiones Prácticas
+          </button>
+          <button class="nav-btn" data-tab="teacher-tab">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path><path d="M6 6h10"></path><path d="M6 10h10"></path></svg>
+            Kit Docente (45 min)
+          </button>
+          <button class="nav-btn" data-tab="family-tab">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            Apoderados
+          </button>
+          <button class="nav-btn" data-tab="dashboard-tab">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            Impacto SLEP
+          </button>
+        </nav>
+
+        <div class="header-actions">
+          <div class="user-role-pill">
+            <span class="role-dot"></span>
+            <span id="active-role-text">Rol: Estudiante</span>
+          </div>
+          <button class="btn btn-sm btn-outline" id="role-toggle-btn" title="Cambiar perspectiva">
+            Cambiar Rol
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Dynamic Content Wrapper -->
+    <main class="main-content container">
+
+      <!-- ==============================================
+           TAB 0: HERO & OVERVIEW
+           ============================================== -->
+      <section id="hero-tab" class="tab-pane active">
+        <div class="hero-card">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-icon"></span>
+              Alternativa 3 Seleccionada: Laboratorio de Simulación y Rol
+            </div>
+            <h1 class="hero-title">
+              Educación Financiera Real para Jóvenes de Chile
+            </h1>
+            <p class="hero-description">
+              Un kit metodológico estandarizado <strong>"llave en mano"</strong> que aprovecha los 4 bloques de <strong>Orientación</strong> en 3° y 4° Medio. Diseñado para transformar decisiones impulsivas en hábitos de ahorro, crédito informado (CAE), inversión y ciberseguridad sin sobrecargar al profesor.
+            </p>
+
+            <div class="hero-cta-group">
+              <button class="btn btn-primary btn-lg" onclick="window.switchTab('diag-tab')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                Iniciar Diagnóstico Rápido (5 min)
+              </button>
+              <button class="btn btn-glass btn-lg" onclick="window.switchTab('sim-tab')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                Probar Simuladores de Aula
+              </button>
+              <button class="btn btn-outline btn-lg" onclick="window.switchTab('teacher-tab')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Ver Pauta Docente (45 min)
+              </button>
+            </div>
+
+            <!-- Chile Financial Reality Stats Grid -->
+            <div class="stat-highlight-grid">
+              <div class="stat-card">
+                <div class="stat-number text-danger">451 pts</div>
+                <div class="stat-label">Chile en Prueba PISA Finanzas</div>
+                <div class="stat-sub">Bajo el promedio OCDE (498) y Bélgica (527)</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number text-warning">&gt;30%</div>
+                <div class="stat-label">Bajo el Nivel 2 de competencia</div>
+                <div class="stat-sub">Incapaces de leer una cartola o calcular la CAE</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number text-accent">27 hrs</div>
+                <div class="stat-label">Currículum Oficial Actual</div>
+                <div class="stat-sub">Aisladas en 1° Medio, teóricas y sin continuidad</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number text-danger">18 - 24 años</div>
+                <div class="stat-label">Población en riesgo de morosidad</div>
+                <div class="stat-sub">Rápida entrada a DICOM según CMF e INJUV</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 Steps Architecture from Document -->
+        <div class="section-block">
+          <div class="section-header">
+            <span class="section-tag">Metodología Semestral</span>
+            <h2 class="section-title">Las 5 Etapas del Programa "Finanzas para tu Futuro"</h2>
+            <p class="section-desc">Estructura validada con especialistas (José Díaz Cruz y Verónica Díaz) para garantizar impacto, bajo costo y cero sobrecarga laboral para el docente.</p>
+          </div>
+
+          <div class="timeline-grid">
+            <div class="timeline-step-card">
+              <div class="step-num">01</div>
+              <div class="step-badge">Mes 1</div>
+              <h3>Alianza y Diagnóstico</h3>
+              <p>Acuerdo con Dirección/UTP del colegio para 4 bloques de Orientación. Aplicación del <strong>test digital de 5 minutos</strong> para medir brechas por curso antes de comenzar.</p>
+              <div class="step-meta">Recomendación José Díaz</div>
+            </div>
+
+            <div class="timeline-step-card">
+              <div class="step-num">02</div>
+              <div class="step-badge">Mes 1</div>
+              <h3>Entrega del Kit Llave en Mano</h3>
+              <p>Entrega al Profesor Jefe de la carpeta con tarjetas de simulación, cartolas reales impresas y un <strong>video instructivo de 15 minutos</strong> sin requerir estudio previo.</p>
+              <div class="step-meta">Cero sobrecarga docente</div>
+            </div>
+
+            <div class="timeline-step-card highlight-step">
+              <div class="step-num">03</div>
+              <div class="step-badge">Meses 2 y 3</div>
+              <h3>Ciclo de 4 Sesiones Prácticas</h3>
+              <p>4 sesiones de 45 min en sala: 5 min de video conceptual + 40 min de juego de rol en <strong>equipos de 5 alumnos</strong> con roles dinámicos (Presupuesto, Crédito, Ahorro, Cyber).</p>
+              <div class="step-meta">Metodología Verónica Díaz UC</div>
+            </div>
+
+            <div class="timeline-step-card">
+              <div class="step-num">04</div>
+              <div class="step-badge">Meses 2 y 3</div>
+              <h3>Vínculo Familiar</h3>
+              <p>Envío de <strong>micro-cápsulas breves a apoderados</strong> para reforzar en el hogar hábitos de no sobreendeudamiento, control de mesadas y conversación familiar sin tabú.</p>
+              <div class="step-meta">Entrevista apoderados</div>
+            </div>
+
+            <div class="timeline-step-card">
+              <div class="step-num">05</div>
+              <div class="step-badge">Mes 4</div>
+              <h3>Evaluación e Impacto</h3>
+              <p>Medición de cobertura (% alumnos y horas prácticas), variación post-test de resolución de casos aplicados e índice de satisfacción docente/estudiantil.</p>
+              <div class="step-meta">Monitoreo continuo UTP</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Sessions Teaser -->
+        <div class="section-block">
+          <div class="section-header">
+            <span class="section-tag">Plan de Formación Práctico</span>
+            <h2 class="section-title">El Ciclo de las 4 Sesiones en Orientación</h2>
+            <p class="section-desc">Cada sesión ataca un problema real detectado en la investigación escolar chilena.</p>
+          </div>
+
+          <div class="sessions-showcase-grid">
+            <div class="session-teaser-card" onclick="window.loadSession(1)">
+              <div class="session-icon-box bg-emerald">1</div>
+              <div class="session-content">
+                <span class="session-time">45 Minutos • Sesión 1</span>
+                <h3>Presupuesto 50/30/20 & Anti-Impulso</h3>
+                <p>Administración de la primera mesada en tarjeta digital frente a compras impulsivas y alzas de precios por UF e inflación.</p>
+                <div class="session-badge-row">
+                  <span class="tag">Regla 50/30/20</span>
+                  <span class="tag">Inflación UF</span>
+                  <span class="tag">Compras por Aburrimiento</span>
+                </div>
+              </div>
+              <button class="btn btn-sm btn-glass">Explorar &rarr;</button>
+            </div>
+
+            <div class="session-teaser-card" onclick="window.loadSession(2)">
+              <div class="session-icon-box bg-indigo">2</div>
+              <div class="session-content">
+                <span class="session-time">45 Minutos • Sesión 2</span>
+                <h3>Crédito, Cartolas Reales & Trampa CAE</h3>
+                <p>Análisis de cartolas de casas comerciales. Comparación del pago mínimo vs pago total y elección de créditos según CAE.</p>
+                <div class="session-badge-row">
+                  <span class="tag">Pago Mínimo Tarjeta</span>
+                  <span class="tag">Comparador CAE</span>
+                  <span class="tag">Efecto Bola de Nieve</span>
+                </div>
+              </div>
+              <button class="btn btn-sm btn-glass">Explorar &rarr;</button>
+            </div>
+
+            <div class="session-teaser-card" onclick="window.loadSession(3)">
+              <div class="session-icon-box bg-cyan">3</div>
+              <div class="session-content">
+                <span class="session-time">45 Minutos • Sesión 3</span>
+                <h3>Ahorro e Interés Compuesto a Tiempo</h3>
+                <p>Simulación de alternativas chilenas (Cuenta UF BancoEstado, DAP y Fondos Mutuos). Por qué empezar a los 17 supera a los 30.</p>
+                <div class="session-badge-row">
+                  <span class="tag">Cuenta Reajustable UF</span>
+                  <span class="tag">Depósito a Plazo</span>
+                  <span class="tag">Curva Exponencial</span>
+                </div>
+              </div>
+              <button class="btn btn-sm btn-glass">Explorar &rarr;</button>
+            </div>
+
+            <div class="session-teaser-card" onclick="window.loadSession(4)">
+              <div class="session-icon-box bg-rose">4</div>
+              <div class="session-content">
+                <span class="session-time">45 Minutos • Sesión 4</span>
+                <h3>Ciberseguridad, Apuestas & Evita DICOM</h3>
+                <p>Entrenamiento ante estafas en redes (phishing, cuentas mula), trampas de casinos online y consecuencias de caer en DICOM.</p>
+                <div class="session-badge-row">
+                  <span class="tag">Cuentas Mula</span>
+                  <span class="tag">Casinos Online</span>
+                  <span class="tag">Boletín Comercial</span>
+                </div>
+              </div>
+              <button class="btn btn-sm btn-glass">Explorar &rarr;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ==============================================
+           TAB 1: DIAGNÓSTICO DIGITAL RÁPIDO (5 MINUTOS)
+           ============================================== -->
+      <section id="diag-tab" class="tab-pane">
+        <div class="interactive-panel">
+          <div class="panel-header">
+            <div>
+              <span class="badge badge-accent">Etapa 1: Diagnóstico Digital Escolar</span>
+              <h2>Test Rápido de Competencias Financieras (5 Minutos)</h2>
+              <p class="panel-subtitle">Sugerido por José Díaz Cruz: medir brechas iniciales por curso antes de la intervención para enfocar las sesiones prácticas.</p>
+            </div>
+            <div class="diag-meta-info">
+              <span class="chip">🎯 5 Preguntas Situacionales</span>
+              <span class="chip">⏱️ Tiempo estimado: 5 min</span>
+              <span class="chip">📊 Basado en PISA & CMF</span>
+            </div>
+          </div>
+
+          <div id="quiz-container">
+            <div class="quiz-progress-bar-wrap">
+              <div class="quiz-progress-bar" id="quiz-progress-fill" style="width: 20%;"></div>
+            </div>
+            <div class="quiz-step-counter" id="quiz-step-text">Pregunta 1 de 5</div>
+
+            <!-- Dynamic Question Box -->
+            <div class="quiz-question-box" id="quiz-box">
+              <!-- Rendered via JS -->
+            </div>
+
+            <!-- Result Box (Hidden by default) -->
+            <div class="quiz-result-box hidden" id="quiz-result">
+              <div class="result-header">
+                <div class="result-score-circle" id="result-score-display">
+                  <span id="score-val">0</span>
+                  <span class="score-max">/ 5 pts</span>
+                </div>
+                <div>
+                  <h3 id="result-title">Diagnóstico Completado</h3>
+                  <p id="result-desc">Análisis de competencias financieras iniciales.</p>
+                  <div class="result-benchmark-box" id="result-benchmark">
+                    <!-- Benchmarks populated by JS -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="result-feedback-list" id="result-breakdown">
+                <!-- Breakdown populated by JS -->
+              </div>
+
+              <div class="result-actions">
+                <button class="btn btn-primary" onclick="window.switchTab('sim-tab')">
+                  Continuar al Laboratorio de Simulaciones &rarr;
+                </button>
+                <button class="btn btn-outline" onclick="window.resetQuiz()">
+                  Repetir Diagnóstico
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ==============================================
+           TAB 2: LABORATORIO DE SIMULACIONES (4 SESIONES)
+           ============================================== -->
+      <section id="sim-tab" class="tab-pane">
+        <!-- Sub-navigation for the 4 sessions -->
+        <div class="sub-nav-bar">
+          <button class="sub-nav-btn active" data-session="1">
+            <span class="sub-num">1</span>
+            <span>Sesión 1: Presupuesto & UF</span>
+          </button>
+          <button class="sub-nav-btn" data-session="2">
+            <span class="sub-num">2</span>
+            <span>Sesión 2: Cartola & CAE</span>
+          </button>
+          <button class="sub-nav-btn" data-session="3">
+            <span class="sub-num">3</span>
+            <span>Sesión 3: Ahorro & Compuesto</span>
+          </button>
+          <button class="sub-nav-btn" data-session="4">
+            <span class="sub-num">4</span>
+            <span>Sesión 4: Cyber & Dicom</span>
+          </button>
+        </div>
+
+        <!-- ==================== SESIÓN 1 ==================== -->
+        <div id="session-pane-1" class="session-pane active">
+          <div class="simulator-wrapper">
+            <div class="sim-sidebar">
+              <div class="sim-info-card">
+                <span class="badge badge-emerald">Sesión 1 de Orientación</span>
+                <h3>Presupuesto 50/30/20 & Anti-Impulso</h3>
+                <p>Los estudiantes de media usan tarjeta/mesada pero <strong>ninguno planifica</strong> y son vulnerables a compras impulsivas por aburrimiento o alzas por UF.</p>
+                <div class="rule-box">
+                  <div class="rule-item">
+                    <span class="rule-tag tag-50">50% Necesidades</span>
+                    <small>Transporte, colación escolar, útiles, plan móvil.</small>
+                  </div>
+                  <div class="rule-item">
+                    <span class="rule-tag tag-30">30% Gustos</span>
+                    <small>Salidas con amigos, comida rápida, juegos, ropa.</small>
+                  </div>
+                  <div class="rule-item">
+                    <span class="rule-tag tag-20">20% Ahorro</span>
+                    <small>Fondo de emergencia intocable y metas futuras.</small>
+                  </div>
+                </div>
+                
+                <div class="team-role-pill">
+                  <strong>Rol de equipo en sala:</strong> "Tesorero y Planificador del Grupo"
+                </div>
+              </div>
+            </div>
+
+            <div class="sim-main">
+              <!-- Mesada setup -->
+              <div class="card sim-card">
+                <div class="sim-card-header">
+                  <div>
+                    <h4>1. Configura tu Mesada o Ingreso Mensual</h4>
+                    <span class="text-muted">Ajusta el monto recibido en tu tarjeta escolar (CuentaRUT/MercadoPago):</span>
+                  </div>
+                  <div class="amount-badge" id="s1-income-display">$60.000 CLP</div>
+                </div>
+                <input type="range" id="s1-income-slider" min="20000" max="150000" step="5000" value="60000" class="custom-slider">
+                <div class="slider-ticks">
+                  <span>$20.000 (Mesada modesta)</span>
+                  <span>$60.000 (Típica 3°-4° Medio)</span>
+                  <span>$150.000 (Con pituto de fin de semana)</span>
+                </div>
+              </div>
+
+              <!-- Allocator Sliders -->
+              <div class="card sim-card">
+                <h4>2. Distribución de tu Dinero (Objetivo: 50% / 30% / 20%)</h4>
+                <div class="budget-sliders-grid">
+                  <div class="budget-slider-item">
+                    <div class="budget-item-head">
+                      <span>🥗 Necesidades (Colación, Bip, Saldo)</span>
+                      <strong id="s1-needs-val">$30.000 (50%)</strong>
+                    </div>
+                    <input type="range" id="s1-needs-slider" min="0" max="100" value="50" class="custom-slider slider-emerald">
+                  </div>
+                  <div class="budget-slider-item">
+                    <div class="budget-item-head">
+                      <span>🎮 Gustos & Deseos (Salidas, Compras impulsivas)</span>
+                      <strong id="s1-wants-val">$18.000 (30%)</strong>
+                    </div>
+                    <input type="range" id="s1-wants-slider" min="0" max="100" value="30" class="custom-slider slider-indigo">
+                  </div>
+                  <div class="budget-slider-item">
+                    <div class="budget-item-head">
+                      <span>🏦 Ahorro Intocable (Metas & Imprevistos)</span>
+                      <strong id="s1-savings-val">$12.000 (20%)</strong>
+                    </div>
+                    <input type="range" id="s1-savings-slider" min="0" max="100" value="20" class="custom-slider slider-cyan">
+                  </div>
+                </div>
+
+                <div class="budget-progress-multi">
+                  <div id="bar-needs" class="multi-bar bg-emerald" style="width: 50%;">50%</div>
+                  <div id="bar-wants" class="multi-bar bg-indigo" style="width: 30%;">30%</div>
+                  <div id="bar-savings" class="multi-bar bg-cyan" style="width: 20%;">20%</div>
+                </div>
+                <div id="budget-sum-alert" class="alert-inline alert-ok">
+                  Suma total: 100% de tus ingresos asignados correctamente.
+                </div>
+              </div>
+
+              <!-- Random Real-Life Events Simulation -->
+              <div class="card sim-card">
+                <div class="sim-card-header">
+                  <div>
+                    <h4>3. Ruleta de Tentaciones & Realidad Juvenil Chilena</h4>
+                    <span class="text-muted">Enfrenta situaciones reales que ponen a prueba tu disciplina financiera:</span>
+                  </div>
+                  <button class="btn btn-sm btn-accent" id="trigger-event-btn">
+                    🎲 Lanzar Situación Aleatoria
+                  </button>
+                </div>
+
+                <div class="event-display-box" id="event-box">
+                  <div class="event-icon">💡</div>
+                  <div class="event-details">
+                    <h5 id="event-title">Situación cotidiana de Enseñanza Media</h5>
+                    <p id="event-desc">Presiona el botón para sortear un evento de compras impulsivas, alza de transporte o imprevistos de fin de mes.</p>
+                  </div>
+                </div>
+
+                <div class="event-choice-actions hidden" id="event-actions">
+                  <button class="btn btn-sm btn-outline" id="event-opt-a">Opción A</button>
+                  <button class="btn btn-sm btn-primary" id="event-opt-b">Opción B</button>
+                </div>
+
+                <div id="event-feedback-msg" class="event-feedback-box hidden"></div>
+              </div>
+
+              <!-- Live Balance Summary & Health Gauge -->
+              <div class="card sim-card summary-highlight-card">
+                <h4>Diagnóstico del Mes: Salud Financiera de tu Equipo</h4>
+                <div class="financial-health-metrics">
+                  <div class="health-metric">
+                    <span class="text-muted">Ahorro Acumulado</span>
+                    <strong class="text-emerald" id="s1-final-savings">$12.000</strong>
+                  </div>
+                  <div class="health-metric">
+                    <span class="text-muted">Riesgo de Deuda a Fin de Mes</span>
+                    <strong class="text-accent" id="s1-debt-risk">Bajo (0%)</strong>
+                  </div>
+                  <div class="health-metric">
+                    <span class="text-muted">Protección Inflación (UF)</span>
+                    <strong class="text-cyan" id="s1-uf-defense">Alta</strong>
+                  </div>
+                </div>
+                <p class="health-tip" id="s1-health-tip">
+                  ¡Excelente equilibrio! Destinar el 20% al ahorro te permite costear imprevistos sin pedir prestado a compañeros ni quedar en cero a mitad de mes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== SESIÓN 2 ==================== -->
+        <div id="session-pane-2" class="session-pane">
+          <div class="simulator-wrapper">
+            <div class="sim-sidebar">
+              <div class="sim-info-card">
+                <span class="badge badge-indigo">Sesión 2 de Orientación</span>
+                <h3>Crédito, Cartolas Reales & Trampa CAE</h3>
+                <p>Más del 30% de los jóvenes no sabe interpretar una cartola y cae en la trampa del <strong>pago mínimo</strong>, disparando los intereses rotativos de casas comerciales.</p>
+                <div class="cae-explainer">
+                  <strong>¿Qué es la CAE?</strong>
+                  <p>Es la Carga Anual Equivalente. Incluye intereses + comisiones + seguros obligatorios. Es el <em>único</em> número para comparar qué crédito es más barato.</p>
+                </div>
+                <div class="team-role-pill">
+                  <strong>Rol de equipo en sala:</strong> "Auditor de Riesgo y Negociador"
+                </div>
+              </div>
+            </div>
+
+            <div class="sim-main">
+              <!-- Real Credit Card Bill Mockup -->
+              <div class="card statement-card">
+                <div class="statement-header">
+                  <div class="bank-brand">
+                    <div class="bank-logo-symbol">💳</div>
+                    <div>
+                      <strong>TARJETA JOVEN RETAIL / COMERCIAL</strong>
+                      <small class="text-muted">Cartola Mensual de Facturación - Vencimiento: 05 de Noviembre</small>
+                    </div>
+                  </div>
+                  <div class="badge badge-warning">Estado: Facturado</div>
+                </div>
+
+                <div class="statement-summary-grid">
+                  <div class="stat-col">
+                    <span class="text-muted">Monto Total Facturado</span>
+                    <strong class="statement-total">$180.000 CLP</strong>
+                    <small>Gasto en zapatillas + tecnología</small>
+                  </div>
+                  <div class="stat-col">
+                    <span class="text-muted">Pago Mínimo Sugerido</span>
+                    <strong class="text-danger statement-minimum">$15.000 CLP</strong>
+                    <small>¡Peligro de intereses rotativos!</small>
+                  </div>
+                  <div class="stat-col">
+                    <span class="text-muted">Tasa de Interés Rotativa</span>
+                    <strong>3.4% mensual</strong>
+                    <small>CAE Tarjeta: 49.8% anual</small>
+                  </div>
+                </div>
+
+                <div class="interactive-payment-selector">
+                  <h4>Simula tu Decisión de Pago de este Mes:</h4>
+                  <div class="payment-options-grid">
+                    <button class="pay-option-btn active" id="pay-opt-total">
+                      <span class="pay-title">🟢 Pago Total del Mes</span>
+                      <span class="pay-amount">$180.000</span>
+                      <small>Pagas la deuda completa</small>
+                    </button>
+                    <button class="pay-option-btn" id="pay-opt-min">
+                      <span class="pay-title">🔴 Pago Mínimo</span>
+                      <span class="pay-amount">$15.000</span>
+                      <small>La trampa del interés rotativo</small>
+                    </button>
+                    <button class="pay-option-btn" id="pay-opt-half">
+                      <span class="pay-title">🟡 Pago Parcial</span>
+                      <span class="pay-amount">$60.000</span>
+                      <small>Abono intermedio</small>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Simulation outcome comparison -->
+                <div class="payment-outcome-box" id="pay-outcome-display">
+                  <!-- Populated by JS -->
+                </div>
+              </div>
+
+              <!-- Interactive CAE Comparator -->
+              <div class="card sim-card">
+                <div class="sim-card-header">
+                  <div>
+                    <h4>Comparador de Préstamos CMF: ¿Cuál elegirías?</h4>
+                    <span class="text-muted">Necesitas $200.000 para costear un curso o computador. Tres entidades te ofrecen financiamiento:</span>
+                  </div>
+                  <span class="badge badge-accent">Caso Aplicado de Aula</span>
+                </div>
+
+                <div class="loan-comparison-grid">
+                  <div class="loan-card" id="loan-card-1" onclick="window.selectLoan(1)">
+                    <div class="loan-tag">Oferta A: Casa Comercial</div>
+                    <div class="loan-cuota">$11.900 / mes</div>
+                    <div class="loan-term">en 36 cuotas</div>
+                    <div class="loan-cae text-danger">CAE: 52.4%</div>
+                    <div class="loan-total">Costo Total: $428.400</div>
+                    <button class="btn btn-sm btn-outline full-width">Evaluar Oferta A</button>
+                  </div>
+
+                  <div class="loan-card recommended" id="loan-card-2" onclick="window.selectLoan(2)">
+                    <div class="loan-tag">Oferta B: Banco / Cooperativa</div>
+                    <div class="loan-cuota">$19.200 / mes</div>
+                    <div class="loan-term">en 12 cuotas</div>
+                    <div class="loan-cae text-emerald">CAE: 16.8%</div>
+                    <div class="loan-total">Costo Total: $230.400</div>
+                    <button class="btn btn-sm btn-primary full-width">Evaluar Oferta B</button>
+                  </div>
+
+                  <div class="loan-card" id="loan-card-3" onclick="window.selectLoan(3)">
+                    <div class="loan-tag">Oferta C: Avance Inmediato App</div>
+                    <div class="loan-cuota">$8.990 / mes</div>
+                    <div class="loan-term">en 48 cuotas</div>
+                    <div class="loan-cae text-danger">CAE: 64.1%</div>
+                    <div class="loan-total">Costo Total: $431.520</div>
+                    <button class="btn btn-sm btn-outline full-width">Evaluar Oferta C</button>
+                  </div>
+                </div>
+
+                <div class="loan-verdict-box" id="loan-verdict">
+                  Selecciona una de las ofertas para ver el análisis de tu equipo. Recuerda: ¡una cuota mensual más pequeña no significa que sea más barato!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== SESIÓN 3 ==================== -->
+        <div id="session-pane-3" class="session-pane">
+          <div class="simulator-wrapper">
+            <div class="sim-sidebar">
+              <div class="sim-info-card">
+                <span class="badge badge-cyan">Sesión 3 de Orientación</span>
+                <h3>Ahorro e Interés Compuesto</h3>
+                <p>El interés compuesto es la fuerza más potente para generar patrimonio. Descubre cómo <strong>empezar a los 17 años</strong> te da una ventaja irrecuperable frente a empezar a los 30.</p>
+                
+                <div class="instrument-guide">
+                  <strong>Instrumentos en Chile:</strong>
+                  <ul>
+                    <li><strong>Efectivo/Cta. Corriente:</strong> Pierde valor frente a la inflación cada año.</li>
+                    <li><strong>Cuenta Ahorro UF (BancoEstado):</strong> Protege el 100% de la inflación + tasa fija real.</li>
+                    <li><strong>Depósito a Plazo (DAP):</strong> Inversión de bajo riesgo a plazo fijo en pesos.</li>
+                    <li><strong>Fondo Mutuo / Inversión:</strong> Mayor retorno a largo plazo mediante interés compuesto.</li>
+                  </ul>
+                </div>
+                
+                <div class="team-role-pill">
+                  <strong>Rol de equipo en sala:</strong> "Inversionista y Evaluador de Metas"
+                </div>
+              </div>
+            </div>
+
+            <div class="sim-main">
+              <!-- Controls -->
+              <div class="card sim-card">
+                <div class="controls-row-grid">
+                  <div class="control-col">
+                    <label>Ahorro Mensual Constante:</label>
+                    <div class="val-display" id="s3-amount-display">$15.000 / mes</div>
+                    <input type="range" id="s3-amount-slider" min="5000" max="60000" step="2500" value="15000" class="custom-slider">
+                    <small class="text-muted">Equivalente a guardar $500 pesos diarios</small>
+                  </div>
+
+                  <div class="control-col">
+                    <label>Horizonte de Tiempo (Años):</label>
+                    <div class="val-display" id="s3-years-display">10 Años</div>
+                    <input type="range" id="s3-years-slider" min="1" max="25" step="1" value="10" class="custom-slider">
+                    <small class="text-muted">De los 17 años hasta los 27 años</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Live Chart Comparison -->
+              <div class="card sim-card">
+                <div class="sim-card-header">
+                  <div>
+                    <h4>Comparación de Crecimiento de tu Dinero</h4>
+                    <span class="text-muted">Mira cómo la curva se despega gracias al interés compuesto:</span>
+                  </div>
+                  <div class="legend-pills">
+                    <span class="pill-legend leg-cash">Efectivo (Inflación)</span>
+                    <span class="pill-legend leg-uf">Cuenta UF</span>
+                    <span class="pill-legend leg-invest">Fondo Compuesto</span>
+                  </div>
+                </div>
+
+                <div class="canvas-container">
+                  <canvas id="compoundChart" width="700" height="280"></canvas>
+                </div>
+
+                <div class="compound-results-grid">
+                  <div class="comp-col card-cash">
+                    <span class="comp-title">Efectivo / Cuenta Corriente</span>
+                    <strong class="comp-val" id="res-cash">$1.800.000</strong>
+                    <small class="text-danger" id="res-cash-loss">Pierde ~$620.000 por inflación (UF)</small>
+                  </div>
+
+                  <div class="comp-col card-uf">
+                    <span class="comp-title">Cuenta Reajustable en UF</span>
+                    <strong class="comp-val text-cyan" id="res-uf">$2.380.000</strong>
+                    <small class="text-cyan">Protege 100% poder de compra</small>
+                  </div>
+
+                  <div class="comp-col card-compound">
+                    <span class="comp-title">Fondo Compuesto (8% anual)</span>
+                    <strong class="comp-val text-emerald" id="res-compound">$3.148.000</strong>
+                    <small class="text-emerald" id="res-interest-gain">+$1.348.000 de interés puro ganado</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Case Study: Marta vs Lucas -->
+              <div class="card highlight-card">
+                <div class="case-study-header">
+                  <div class="case-badge">Caso Emblemático OCDE</div>
+                  <h4>Marta (Comienza a los 17) vs. Lucas (Comienza a los 30)</h4>
+                </div>
+                <div class="case-comparison-grid">
+                  <div class="case-profile">
+                    <h5>👧 Marta (17 años)</h5>
+                    <p>Ahorra <strong>$15.000/mes</strong> solo durante 10 años (de los 17 a los 27 años) en un fondo al 8%. Luego no aporta ni un solo peso más y deja que el interés trabaje.</p>
+                    <div class="case-stat">
+                      <span>Total Aportado de su bolsillo:</span>
+                      <strong>$1.800.000</strong>
+                    </div>
+                    <div class="case-stat final-win">
+                      <span>Patrimonio a los 60 años:</span>
+                      <strong class="text-emerald">$58.400.000</strong>
+                    </div>
+                  </div>
+
+                  <div class="vs-circle">VS</div>
+
+                  <div class="case-profile">
+                    <h5>👦 Lucas (30 años)</h5>
+                    <p>Dice: "Ahorraré cuando trabaje". Ahorra <strong>$35.000/mes</strong> (más del doble) durante 30 años seguidos (de los 30 a los 60 años).</p>
+                    <div class="case-stat">
+                      <span>Total Aportado de su bolsillo:</span>
+                      <strong>$12.600.000 (¡7 veces más!)</strong>
+                    </div>
+                    <div class="case-stat final-loss">
+                      <span>Patrimonio a los 60 años:</span>
+                      <strong class="text-warning">$52.100.000</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="case-conclusion">
+                  <strong>Conclusión clave para 3° y 4° Medio:</strong> Marta aportó <strong>7 veces menos dinero</strong> pero terminó con <strong>MÁS dinero que Lucas</strong> gracias a empezar 13 años antes. ¡El tiempo en el mercado le gana al monto!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== SESIÓN 4 ==================== -->
+        <div id="session-pane-4" class="session-pane">
+          <div class="simulator-wrapper">
+            <div class="sim-sidebar">
+              <div class="sim-info-card">
+                <span class="badge badge-rose">Sesión 4 de Orientación</span>
+                <h3>Ciberseguridad, Apuestas & Evita DICOM</h3>
+                <p>En Chile, las mafias digitales reclutan a jóvenes para actuar como <strong>"cuentas mula"</strong> en CuentaRUT y proliferan las trampas de <strong>casinos online ilegales</strong> en TikTok e Instagram.</p>
+
+                <div class="dicom-card">
+                  <strong>¿Qué es estar en DICOM?</strong>
+                  <p>Es el Boletín Comercial de deudores morosos. Si entras:</p>
+                  <ul>
+                    <li>No puedes arrendar departamento.</li>
+                    <li>Te rechazan créditos hipotecarios y automotrices.</li>
+                    <li>Quedas bloqueado para abrir cuentas y tarjetas bancarias.</li>
+                    <li>Puede afectarte en postulaciones laborales.</li>
+                  </ul>
+                </div>
+
+                <div class="team-role-pill">
+                  <strong>Rol de equipo en sala:</strong> "Oficial de Seguridad Digital y Cumplimiento"
+                </div>
+              </div>
+            </div>
+
+            <div class="sim-main">
+              <!-- Smartphone Message Simulator -->
+              <div class="card sim-card">
+                <div class="sim-card-header">
+                  <div>
+                    <h4>Simulador de Bandeja de Entrada Móvil</h4>
+                    <span class="text-muted">Evalúa los mensajes reales que reciben a diario los jóvenes chilenos:</span>
+                  </div>
+                  <span class="badge badge-outline" id="cyber-counter">Caso 1 de 4</span>
+                </div>
+
+                <div class="phone-mockup-wrapper">
+                  <div class="phone-frame">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                      <div class="phone-status-bar">
+                        <span>14:32</span>
+                        <div class="phone-icons">📶 🔋 98%</div>
+                      </div>
+
+                      <div class="phone-chat-header">
+                        <div class="chat-avatar" id="msg-sender-avatar">👤</div>
+                        <div class="chat-meta">
+                          <strong id="msg-sender-name">Remitente</strong>
+                          <small id="msg-sender-sub">En línea</small>
+                        </div>
+                      </div>
+
+                      <div class="phone-chat-body">
+                        <div class="chat-bubble received" id="msg-content">
+                          <!-- Message populated by JS -->
+                        </div>
+                        <div class="chat-timestamp" id="msg-timestamp">Hoy 14:30</div>
+                      </div>
+
+                      <div class="phone-action-area">
+                        <button class="btn btn-danger btn-block" id="btn-detect-scam" onclick="window.resolveCyberCase(true)">
+                          🚨 ¡Es una Estafa / Trampa!
+                        </button>
+                        <button class="btn btn-outline btn-block" id="btn-trust-msg" onclick="window.resolveCyberCase(false)">
+                          ✅ Parece Seguro / Aceptar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Cyber Case Educational Feedback Box -->
+                  <div class="cyber-feedback-column">
+                    <div class="cyber-tip-box" id="cyber-feedback-card">
+                      <h5>Instrucción para el Equipo</h5>
+                      <p>Lean el mensaje que aparece en la pantalla del teléfono virtual y analicen en conjunto: ¿Qué señales de alerta detectan? ¿Qué peligro legal o financiero existe?</p>
+                      <ul class="check-list">
+                        <li>Fíjate en las faltas de ortografía o enlaces web sospechosos (.xyz, .tk).</li>
+                        <li>Nadie regala plata fácil ni dobla tu dinero mágicamente.</li>
+                        <li>Tu CuentaRUT es intransferible y personal: prestarla es delito.</li>
+                      </ul>
+                    </div>
+
+                    <div class="cyber-nav-btns">
+                      <button class="btn btn-outline" id="prev-cyber-btn" onclick="window.changeCyberCase(-1)">Caso Anterior</button>
+                      <button class="btn btn-primary" id="next-cyber-btn" onclick="window.changeCyberCase(1)">Siguiente Caso &rarr;</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive DICOM Impact Simulator -->
+              <div class="card sim-card">
+                <div class="sim-card-header">
+                  <div>
+                    <h4>Simulador de Consecuencias: ¿Qué pasa si caes en DICOM?</h4>
+                    <span class="text-muted">Prueba diferentes montos de deuda impaga y observa las consecuencias en tu vida adulta:</span>
+                  </div>
+                </div>
+
+                <div class="dicom-slider-box">
+                  <label>Monto de Deuda en Mora:</label>
+                  <div class="dicom-amt" id="dicom-amt-display">$45.000 CLP (Ej: saldo celular o casa comercial)</div>
+                  <input type="range" id="dicom-slider" min="15000" max="600000" step="15000" value="45000" class="custom-slider slider-rose">
+                </div>
+
+                <div class="dicom-impact-grid" id="dicom-impact-results">
+                  <div class="impact-item blocked">
+                    <span class="impact-icon">🏢</span>
+                    <strong>Arriendo de Vivienda</strong>
+                    <span class="status-badge red">Bloqueado</span>
+                    <small>Los corredores exigen certificado DICOM sin morosidades.</small>
+                  </div>
+                  <div class="impact-item blocked">
+                    <span class="impact-icon">💳</span>
+                    <strong>Tarjetas y Cuentas Bancarias</strong>
+                    <span class="status-badge red">Rechazado</span>
+                    <small>El sistema financiero cierra las líneas de crédito.</small>
+                  </div>
+                  <div class="impact-item blocked">
+                    <span class="impact-icon">🚗</span>
+                    <strong>Crédito Automotriz o CAE Superior</strong>
+                    <span class="status-badge red">Suspendido</span>
+                    <small>Riesgo financiero calificado en categoría D o E.</small>
+                  </div>
+                  <div class="impact-item warning">
+                    <span class="impact-icon">💼</span>
+                    <strong>Empleo en Instituciones Financieras</strong>
+                    <span class="status-badge yellow">Restringido</span>
+                    <small>Cargos que manejan fondos verifican solvencia comercial.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ==============================================
+           TAB 3: KIT METODOLÓGICO DOCENTE (45 MINUTOS)
+           ============================================== -->
+      <section id="teacher-tab" class="tab-pane">
+        <div class="teacher-kit-wrapper">
+          <div class="kit-banner">
+            <div class="kit-badge">Kit Metodológico Llave en Mano • Para Profesor Jefe en Orientación</div>
+            <h2>Pauta de Facilitación Paso a Paso (45 Minutos)</h2>
+            <p>Diseñada específicamente para resolver la falta de especialización económica del docente y eliminar cualquier necesidad de planificación previa. Guión cerrado, actividades estructuradas y roles asignados.</p>
+            
+            <div class="kit-quick-stats">
+              <div class="k-stat"><strong>45 min</strong><span>Duración por bloque</span></div>
+              <div class="k-stat"><strong>5 estudiantes</strong><span>Por equipo en sala</span></div>
+              <div class="k-stat"><strong>0 horas</strong><span>Sobrecarga de planificación</span></div>
+              <div class="k-stat"><strong>3° y 4° Medio</strong><span>Nivel escolar objetivo</span></div>
+            </div>
+          </div>
+
+          <!-- Session Picker for Teacher -->
+          <div class="session-selector-tabs">
+            <button class="t-tab active" onclick="window.selectTeacherSession(1)">Sesión 1: Presupuesto & UF</button>
+            <button class="t-tab" onclick="window.selectTeacherSession(2)">Sesión 2: Créditos & CAE</button>
+            <button class="t-tab" onclick="window.selectTeacherSession(3)">Sesión 3: Ahorro & Futuro</button>
+            <button class="t-tab" onclick="window.selectTeacherSession(4)">Sesión 4: Cyber & DICOM</button>
+          </div>
+
+          <!-- Lesson Plan Breakdown -->
+          <div class="card lesson-plan-card" id="lesson-plan-content">
+            <!-- Dynamically populated by JS based on selected session -->
+          </div>
+
+          <!-- Team Roles Card -->
+          <div class="card roles-card">
+            <div class="card-head">
+              <h3>Los 5 Roles Dinámicos por Equipo en Sala</h3>
+              <p class="text-muted">Cada estudiante del grupo asume una función concreta durante los 40 minutos del juego de rol:</p>
+            </div>
+            <div class="roles-grid">
+              <div class="role-box">
+                <div class="role-badge">Rol 1</div>
+                <h4>Tesorero(a)</h4>
+                <p>Lleva el registro de los fondos de la mesada virtual y anota cada gasto o imprevisto en la ficha del equipo.</p>
+              </div>
+              <div class="role-box">
+                <div class="role-badge">Rol 2</div>
+                <h4>Auditor(a) de Riesgo</h4>
+                <p>Verifica si las ofertas de compras o préstamos tienen costos ocultos o letras chicas antes de decidir.</p>
+              </div>
+              <div class="role-box">
+                <div class="role-badge">Rol 3</div>
+                <h4>Negociador(a)</h4>
+                <p>Propone alternativas y busca consensos en el equipo ante dilemas de gastos y tentaciones cotidianas.</p>
+              </div>
+              <div class="role-box">
+                <div class="role-badge">Rol 4</div>
+                <h4>Planificador(a)</h4>
+                <p>Garantiza que se respete la meta de ahorro (regla 50/30/20) y no se queden sin fondos a mitad de mes.</p>
+              </div>
+              <div class="role-box">
+                <div class="role-badge">Rol 5</div>
+                <h4>Vocero(a)</h4>
+                <p>Presenta en los 5 minutos de cierre las conclusiones y aprendizajes del grupo al resto del curso.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Printable / Download Resources -->
+          <div class="card downloads-card">
+            <h3>Materiales Imprimibles y Fichas de Aula</h3>
+            <p class="text-muted">Descarga o imprime directamente el material autoguiado para los alumnos:</p>
+            <div class="download-btns-grid">
+              <button class="btn btn-glass" onclick="window.printLessonPlan()">
+                🖨️ Imprimir Pauta Docente (Esta Sesión)
+              </button>
+              <button class="btn btn-glass" onclick="window.downloadStudentWorksheet()">
+                📄 Descargar Ficha de Trabajo Alumno (PDF)
+              </button>
+              <button class="btn btn-glass" onclick="window.downloadEvaluationRubric()">
+                📝 Rúbrica de Observación en Aula
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ==============================================
+           TAB 4: ESPACIO APODERADOS & VÍNCULO FAMILIAR
+           ============================================== -->
+      <section id="family-tab" class="tab-pane">
+        <div class="family-space-wrapper">
+          <div class="family-banner">
+            <span class="badge badge-accent">Etapa 4: Vínculo Familiar</span>
+            <h2>Educación Financiera desde el Hogar</h2>
+            <p>Tal como destacó el especialista <strong>José Díaz Cruz</strong> y la entrevista escolar en terreno, para que exista un cambio de conducta permanente en los jóvenes, <strong>el ahorro debe conversarse en casa</strong>. Estas micro-cápsulas breves ayudan a las familias a acompañar a sus hijos.</p>
+          </div>
+
+          <div class="capsules-grid">
+            <div class="capsule-card">
+              <div class="capsule-num">Cápsula 1</div>
+              <h3>De la Mesada en Efectivo a la Tarjeta</h3>
+              <p>Los jóvenes de enseñanza media manejan tarjetas digitales (CuentaRUT, prepago), lo que hace que el dinero parezca "invisible" e intangible. Consejos para fijar límites claros y revisar periódicamente los movimientos.</p>
+              <div class="capsule-actions">
+                <button class="btn btn-sm btn-outline" onclick="window.openCapsuleModal(1)">Leer Guía Familiar &rarr;</button>
+              </div>
+            </div>
+
+            <div class="capsule-card">
+              <div class="capsule-num">Cápsula 2</div>
+              <h3>Cómo Hablar de Deudas sin Tabú</h3>
+              <p>Evitar que el dinero sea un tema de angustia o secreto familiar. Enseñar con el ejemplo la diferencia entre deudas de consumo innecesarias y deudas de inversión o educación.</p>
+              <div class="capsule-actions">
+                <button class="btn btn-sm btn-outline" onclick="window.openCapsuleModal(2)">Leer Guía Familiar &rarr;</button>
+              </div>
+            </div>
+
+            <div class="capsule-card">
+              <div class="capsule-num">Cápsula 3</div>
+              <h3>Frenar las Compras por Impulso y Aburrimiento</h3>
+              <p>En terreno escolar se detectó que las compras de las jóvenes suelen darse por "aburrimiento" o modas de redes sociales. La técnica de las 48 horas de espera antes de comprar.</p>
+              <div class="capsule-actions">
+                <button class="btn btn-sm btn-outline" onclick="window.openCapsuleModal(3)">Leer Guía Familiar &rarr;</button>
+              </div>
+            </div>
+
+            <div class="capsule-card">
+              <div class="capsule-num">Cápsula 4</div>
+              <h3>Alerta Padres: Apuestas Online en Jóvenes</h3>
+              <p>El boom de casinos y apuestas deportivas digitales ilegales entre escolares. Cómo detectar señales de alerta, proteger las tarjetas de crédito de los padres y prevenir la ludopatía juvenil.</p>
+              <div class="capsule-actions">
+                <button class="btn btn-sm btn-outline" onclick="window.openCapsuleModal(4)">Leer Guía Familiar &rarr;</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Family Commitment Checklist -->
+          <div class="card family-checklist-card">
+            <h3>Compromiso Financiero Familiar (Checklist para el Hogar)</h3>
+            <p class="text-muted">Marquen juntos en familia los acuerdos que aplican en su casa:</p>
+            <div class="checklist-items">
+              <label class="check-item"><input type="checkbox" checked> Tenemos una meta de ahorro familiar compartida (vacaciones, imprevisto, arreglo).</label>
+              <label class="check-item"><input type="checkbox" checked> Nuestro(a) hijo(a) sabe cuánto cuesta en promedio el arriendo/dividendo y las cuentas básicas.</label>
+              <label class="check-item"><input type="checkbox"> La mesada se entrega en una fecha fija y no se adelanta si se acaba antes de tiempo.</label>
+              <label class="check-item"><input type="checkbox"> Nadie en el hogar entrega sus contraseñas ni comparte su tarjeta bancaria con terceros.</label>
+              <label class="check-item"><input type="checkbox"> Antes de una compra superior a $20.000, comparamos al menos 2 precios y esperamos 24 horas.</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ==============================================
+           TAB 5: PANEL DE IMPACTO & INDICADORES SLEP / UTP
+           ============================================== -->
+      <section id="dashboard-tab" class="tab-pane">
+        <div class="dashboard-wrapper">
+          <div class="dash-header">
+            <div>
+              <span class="badge badge-primary">Etapa 5: Monitoreo & Rendición</span>
+              <h2>Panel de Impacto Escolar (Métricas SLEP / UTP)</h2>
+              <p class="panel-subtitle">Indicadores clave propuestos por José Díaz Cruz y Verónica Díaz UC para evaluar cobertura, aprendizaje aplicado y satisfacción docente.</p>
+            </div>
+            <div class="dash-controls">
+              <select class="custom-select" id="school-filter">
+                <option value="all">Todos los Establecimientos SLEP</option>
+                <option value="liceo1">Liceo Polivalente A-23 (SLEP)</option>
+                <option value="colegio2">Colegio Técnico Subvencionado</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- KPI Cards Grid -->
+          <div class="kpi-grid">
+            <div class="kpi-card">
+              <div class="kpi-header">
+                <span class="kpi-title">Cobertura de Estudiantes</span>
+                <span class="kpi-badge ok">Meta: &gt;90%</span>
+              </div>
+              <div class="kpi-value">94.8%</div>
+              <div class="kpi-sub">872 de 920 alumnos de 3° y 4° Medio</div>
+              <div class="kpi-bar"><div class="kpi-bar-fill" style="width: 94.8%;"></div></div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-header">
+                <span class="kpi-title">Horas Prácticas Impartidas</span>
+                <span class="kpi-badge ok">100% Programa</span>
+              </div>
+              <div class="kpi-value">12 hrs</div>
+              <div class="kpi-sub">4 bloques de 45 min por curso (4 sesiones)</div>
+              <div class="kpi-bar"><div class="kpi-bar-fill bg-indigo" style="width: 100%;"></div></div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-header">
+                <span class="kpi-title">Mejora en Test Aplicado</span>
+                <span class="kpi-badge ok">+42% Mejora</span>
+              </div>
+              <div class="kpi-value">6.1 / 7.0</div>
+              <div class="kpi-sub">Desde 4.3 en diagnóstico previo (Pre-test)</div>
+              <div class="kpi-bar"><div class="kpi-bar-fill bg-emerald" style="width: 87%;"></div></div>
+            </div>
+
+            <div class="kpi-card">
+              <div class="kpi-header">
+                <span class="kpi-title">Satisfacción Docente NPS</span>
+                <span class="kpi-badge ok">Excelente</span>
+              </div>
+              <div class="kpi-value">96%</div>
+              <div class="kpi-sub">Docentes que valoran el kit sin sobrecarga</div>
+              <div class="kpi-bar"><div class="kpi-bar-fill bg-cyan" style="width: 96%;"></div></div>
+            </div>
+          </div>
+
+          <!-- Detailed Analytics Grid -->
+          <div class="dash-details-grid">
+            <div class="card dash-card">
+              <h4>Brechas Resueltas: Pre-Test vs. Post-Test por Competencia</h4>
+              <p class="text-muted">Porcentaje de estudiantes que responden correctamente casos de la vida real:</p>
+              
+              <div class="benchmark-comparison-table">
+                <div class="b-row header">
+                  <span>Competencia Evaluada (PISA/CMF)</span>
+                  <span>Pre-Intervención</span>
+                  <span>Post-Laboratorio</span>
+                  <span>Variación</span>
+                </div>
+                <div class="b-row">
+                  <span>Comprensión de CAE en créditos</span>
+                  <span class="text-danger">28%</span>
+                  <span class="text-emerald">86%</span>
+                  <strong class="text-emerald">+58%</strong>
+                </div>
+                <div class="b-row">
+                  <span>Detección trampa pago mínimo en cartolas</span>
+                  <span class="text-danger">31%</span>
+                  <span class="text-emerald">91%</span>
+                  <strong class="text-emerald">+60%</strong>
+                </div>
+                <div class="b-row">
+                  <span>Aplicación de regla presupuestaria 50/30/20</span>
+                  <span class="text-warning">42%</span>
+                  <span class="text-emerald">88%</span>
+                  <strong class="text-emerald">+46%</strong>
+                </div>
+                <div class="b-row">
+                  <span>Diferenciación entre UF e interés compuesto</span>
+                  <span class="text-danger">19%</span>
+                  <span class="text-emerald">79%</span>
+                  <strong class="text-emerald">+60%</strong>
+                </div>
+                <div class="b-row">
+                  <span>Identificación de cuentas mula y estafas en redes</span>
+                  <span class="text-warning">51%</span>
+                  <span class="text-emerald">94%</span>
+                  <strong class="text-emerald">+43%</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="card dash-card">
+              <h4>Semáforo de Riesgo Financiero por Curso</h4>
+              <p class="text-muted">Detección temprana de cursos con mayor propensión a gasto impulsivo o desconocimiento de endeudamiento:</p>
+              
+              <div class="course-status-list">
+                <div class="course-item">
+                  <div class="c-info">
+                    <strong>3° Medio A (Liceo Polivalente)</strong>
+                    <small>42 alumnos • 4 sesiones completadas</small>
+                  </div>
+                  <span class="badge badge-emerald">Riesgo Bajo (Solvente)</span>
+                </div>
+
+                <div class="course-item">
+                  <div class="c-info">
+                    <strong>3° Medio B (Liceo Polivalente)</strong>
+                    <small>38 alumnos • 4 sesiones completadas</small>
+                  </div>
+                  <span class="badge badge-emerald">Riesgo Bajo (Solvente)</span>
+                </div>
+
+                <div class="course-item">
+                  <div class="c-info">
+                    <strong>4° Medio A (Técnico Profesional)</strong>
+                    <small>45 alumnos • Próximos a egreso laboral</small>
+                  </div>
+                  <span class="badge badge-cyan">Capacitado en CAE</span>
+                </div>
+
+                <div class="course-item">
+                  <div class="c-info">
+                    <strong>4° Medio B (Científico Humanista)</strong>
+                    <small>40 alumnos • Plan de ahorro universitario</small>
+                  </div>
+                  <span class="badge badge-emerald">Riesgo Bajo (Solvente)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Global Modal Container for Details/Capsules -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+      <div class="modal-box" id="modal-box">
+        <div class="modal-head">
+          <h3 id="modal-title">Título Modal</h3>
+          <button class="modal-close" onclick="window.closeModal()">&times;</button>
+        </div>
+        <div class="modal-body" id="modal-body-content">
+          <!-- Populated by JS -->
+        </div>
+        <div class="modal-foot">
+          <button class="btn btn-outline" onclick="window.closeModal()">Cerrar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container footer-container">
+        <div class="footer-col">
+          <div class="brand">
+            <span class="brand-title">Finanzas para tu Futuro</span>
+          </div>
+          <p class="footer-desc">
+            Proyecto de Práctica Social - Pontificia Universidad Católica de Chile (PUC).<br>
+            Basado en la evidencia de la prueba PISA (OCDE), CMF, INJUV y experiencias de Ontario y Dinamarca.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Equipo de Desarrollo (Grupo 11)</h4>
+          <ul class="team-list">
+            <li>Bartolomé Miranda</li>
+            <li>Ignacio Ossandón</li>
+            <li>Jorge Ruz</li>
+            <li>Clemente Torres</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Entrevistas & Validación</h4>
+          <ul class="team-list">
+            <li><strong>José Díaz Cruz:</strong> Especialista en Economía y Finanzas</li>
+            <li><strong>Verónica Díaz:</strong> Jefa Op. Sincrónicas Educación Profesional UC</li>
+            <li><strong>Comunidad Escolar:</strong> Encuestas en terreno a apoderados y docentes</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© 2026 Finanzas para tu Futuro • Prototipo Funcional de Plataforma Educativa Escolar.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
