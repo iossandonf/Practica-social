@@ -769,7 +769,7 @@ function renderCompoundChart() {
   const maxVal = Math.max(compoundData.finalCompound * 1.15, 100000);
 
   // Draw horizontal grid lines
-  ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';
+  ctx.strokeStyle = 'rgba(90, 70, 45, 0.12)';
   ctx.lineWidth = 1;
   const gridSteps = 4;
   for (let i = 0; i <= gridSteps; i++) {
@@ -780,7 +780,7 @@ function renderCompoundChart() {
     ctx.stroke();
 
     const val = maxVal - (maxVal / gridSteps) * i;
-    ctx.fillStyle = '#64748B';
+    ctx.fillStyle = '#928B80';
     ctx.font = '10px "Plus Jakarta Sans", sans-serif';
     ctx.textAlign = 'right';
     ctx.fillText(formatCLP(val), paddingLeft - 8, y + 4);
@@ -816,19 +816,19 @@ function renderCompoundChart() {
   for (let i = 1; i <= years; i++) {
     cashHistory.push(monthlyDeposit * 12 * i);
   }
-  drawLine(cashHistory, '#94A3B8', null);
+  drawLine(cashHistory, '#928B80', null);
 
   // Draw UF line
-  drawLine(ufData.history, '#38BDF8', null);
+  drawLine(ufData.history, '#3F8C87', null);
 
   // Draw Compound Fund line with gradient fill
   const grad = ctx.createLinearGradient(0, paddingTop, 0, paddingTop + chartH);
-  grad.addColorStop(0, 'rgba(16, 185, 129, 0.25)');
-  grad.addColorStop(1, 'rgba(16, 185, 129, 0.0)');
-  drawLine(compoundData.history, '#10B981', grad);
+  grad.addColorStop(0, 'rgba(78, 143, 95, 0.2)');
+  grad.addColorStop(1, 'rgba(78, 143, 95, 0)');
+  drawLine(compoundData.history, '#4E8F5F', grad);
 
   // Draw Year labels on X Axis
-  ctx.fillStyle = '#94A3B8';
+  ctx.fillStyle = '#928B80';
   ctx.font = '11px "Plus Jakarta Sans", sans-serif';
   ctx.textAlign = 'center';
   const labelStep = Math.max(1, Math.floor(years / 5));
